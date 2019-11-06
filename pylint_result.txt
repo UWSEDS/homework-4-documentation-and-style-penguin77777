@@ -1,0 +1,29 @@
+****************** ~/desktop/cse583/homework-4-documentation-and-style-penguin77777 (master)
+$ pylint test_dataframe.py
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+
+*******************~/desktop/cse583/homework-4-documentation-and-style-penguin77777 (master)
+$ pylint check_dataframe.py
+************* Module check_dataframe
+check_dataframe.py:21:15: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+check_dataframe.py:38:15: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+
+------------------------------------------------------------------
+Your code has been rated at 9.20/10 (previous run: 9.20/10, +0.00)
+
+
+****************** ~/desktop/cse583/homework-4-documentation-and-style-penguin77777 (master)
+$ pytest
+======================== test session starts ========================
+platform win32 -- Python 3.7.2, pytest-5.2.2, py-1.8.0, pluggy-0.13.0
+rootdir: *************\Desktop\CSE583\homework-4-documentation-and-style-penguin77777
+collected 11 items
+
+test_dataframe.py ...........                                                                     [100%]
+
+========================================= 11 passed in 28.00s ==========================================
+
+****************** ~/desktop/cse583/homework-4-documentation-and-style-penguin77777 (master)
